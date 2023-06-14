@@ -1,88 +1,126 @@
 <!DOCTYPE html>
-
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta description="Welcome to my Website! This is where I display all my projects and academic goals. "
-        <meta kewwords="Computer Science, Economics, Wellesley College, MIT, IBM, Web Development"/>
-
-        <!-- file below was taken from Eric Meyer-->
-
-        <link href="css/reset.css" rel="stylesheet" type="text/css">
-        <style type="text/css">
-            /* Rules for the navigation bar */
-
-            #navigation bar
-            {
-            width: 100%;
-            height: 700px;
-            background-image: url(images/background.jpeg);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            }
-
-            #navbar h1
-            {
-            color: #11365A ;
-            font-size: 40px; 
-            font-family: "Lobster", serif;
-            padding: 30px 50px;
-            float: left;
-            }
-
-            #navbar ol 
-            {
-            float: right;		
-            }
-                
-            #navbar li 
-            {
-            float: right; 
-            padding-top: 40px;
-            padding-right: 50px;
-            }
-
-            #navbar ol li a 
-            {
-            color: #11365A;
-            font-family: Lato;
-            font-size: 20px;
-            text-decoration: none;
-            }
-
-            #navbar ol li a:visited 
-            {
-            color: #11365A;
-            font-family: Lato;
-            font-size: 20px;
-            text-decoration: none;
-            }
-
-            #navbar ol li a:hover
-            {
-            color: #11365A;
-            font-size: 20px;
-            border-bottom: 2px solid rgb(51, 170, 102);
-            text-decoration: none;
-            font-family: Lato;
-            }
-            /* end of navigation bar */
-
-
-
-
-        </style>
-    </head>
-
-    <body>
-        <!---navigation bar div-->
-        <div id="navbar">
-            <h1><span style="color:rgb(51, 170, 102)">JC</span></h1>
-
-            <ol>
-                <li><a href="cv.html">CV</a></li>
-            </ol>
-        </div>
-    </body>
+<head>
+  <title>College Student Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+    
+    header {
+      background-color: #333333;
+      padding: 20px;
+      color: #ffffff;
+      text-align: center;
+    }
+    
+    h1 {
+      margin: 0;
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+    }
+    
+    .profile {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+    
+    .profile img {
+      width: 150px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+    
+    .profile h2 {
+      margin: 0;
+    }
+    
+    .bio {
+      margin-bottom: 30px;
+    }
+    
+    .skills {
+      margin-bottom: 30px;
+    }
+    
+    .skills ul {
+      padding-left: 20px;
+    }
+    
+    .skills ul li {
+      list-style-type: disc;
+    }
+    
+    .contact {
+      text-align: center;
+    }
+    
+    .contact a {
+      color: #333333;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    
+    footer {
+      background-color: #333333;
+      padding: 10px;
+      color: #ffffff;
+      text-align: center;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>College Student</h1>
+  </header>
+  
+  <div class="container">
+    <div class="profile">
+      <img src="profile-image.jpg" alt="Profile Image">
+      <div>
+        <h2>John Doe</h2>
+        <p>Computer Science Student</p>
+      </div>
+    </div>
+    
+    <div class="bio">
+      <h3>About Me</h3>
+      <p>I'm a college student passionate about computer science and web development. I enjoy learning new technologies and building interesting projects.</p>
+    </div>
+    
+    <div class="skills">
+      <h3>Skills</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+      </ul>
+    </div>
+    
+    <div class="contact">
+      <h3>Contact Me</h3>
+      <p>Feel free to reach out to me:</p>
+      <a href="mailto:john.doe@example.com">Email</a>
+      <a href="https://linkedin.com/in/johndoe" target="_blank">LinkedIn</a>
+      <a href="https://github.com/johndoe" target="_blank">GitHub</a>
+    </div>
+  </div>
+  
+  <footer>
+    &copy; 2023 College Student Website
+  </footer>
+</body>
 </html>
