@@ -1,126 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>College Student Website</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f5f5f5;
-    }
-    
-    header {
-      background-color: #333333;
-      padding: 20px;
-      color: #ffffff;
-      text-align: center;
-    }
-    
-    h1 {
-      margin: 0;
-    }
-    
-    .container {
-      max-width: 800px;
-      margin: 20px auto;
-      background-color: #ffffff;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      padding: 30px;
-    }
-    
-    .profile {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 30px;
-    }
-    
-    .profile img {
-      width: 150px;
-      border-radius: 50%;
-      margin-right: 20px;
-    }
-    
-    .profile h2 {
-      margin: 0;
-    }
-    
-    .bio {
-      margin-bottom: 30px;
-    }
-    
-    .skills {
-      margin-bottom: 30px;
-    }
-    
-    .skills ul {
-      padding-left: 20px;
-    }
-    
-    .skills ul li {
-      list-style-type: disc;
-    }
-    
-    .contact {
-      text-align: center;
-    }
-    
-    .contact a {
-      color: #333333;
-      text-decoration: none;
-      margin: 0 10px;
-    }
-    
-    footer {
-      background-color: #333333;
-      padding: 10px;
-      color: #ffffff;
-      text-align: center;
-      font-size: 14px;
-    }
-  </style>
+  <title>Personal Website</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
 </head>
 <body>
   <header>
-    <h1>College Student</h1>
+    <h1>My Personal Website</h1>
   </header>
-  
-  <div class="container">
-    <div class="profile">
-      <img src="profile-image.jpg" alt="Profile Image">
-      <div>
-        <h2>John Doe</h2>
-        <p>Computer Science Student</p>
-      </div>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project Title 1</h3>
+      <p>Description of project 1.</p>
     </div>
-    
-    <div class="bio">
-      <h3>About Me</h3>
-      <p>I'm a college student passionate about computer science and web development. I enjoy learning new technologies and building interesting projects.</p>
+    <div class="project">
+      <h3>Project Title 2</h3>
+      <p>Description of project 2.</p>
     </div>
-    
-    <div class="skills">
-      <h3>Skills</h3>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Python</li>
-      </ul>
+    <!-- Add more project divs as needed -->
+  </section>
+
+  <section id="experience">
+    <h2>Work Experience</h2>
+    <div class="job">
+      <h3>Job Title 1</h3>
+      <p>Description of work experience 1.</p>
     </div>
-    
-    <div class="contact">
-      <h3>Contact Me</h3>
-      <p>Feel free to reach out to me:</p>
-      <a href="mailto:john.doe@example.com">Email</a>
-      <a href="https://linkedin.com/in/johndoe" target="_blank">LinkedIn</a>
-      <a href="https://github.com/johndoe" target="_blank">GitHub</a>
+    <div class="job">
+      <h3>Job Title 2</h3>
+      <p>Description of work experience 2.</p>
     </div>
-  </div>
-  
+    <!-- Add more job divs as needed -->
+  </section>
+
   <footer>
-    &copy; 2023 College Student Website
+    <p>&copy; 2023 Your Name</p>
   </footer>
 </body>
 </html>
+
+//CSS
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, section, footer {
+  padding: 20px;
+}
+
+header {
+  background-color: #f2f2f2;
+}
+
+h1 {
+  margin: 0;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.project, .job {
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: #f2f2f2;
+}
